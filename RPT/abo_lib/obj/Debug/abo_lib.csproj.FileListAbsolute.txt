@@ -1,0 +1,6 @@
+D:\QLSV\RPT\abo_lib\bin\Debug\abo_lib.dll
+D:\QLSV\RPT\abo_lib\bin\Debug\abo_lib.pdb
+D:\QLSV\RPT\abo_lib\obj\Debug\abo_lib.csproj.AssemblyReference.cache
+D:\QLSV\RPT\abo_lib\obj\Debug\abo_lib.csproj.CoreCompileInputs.cache
+D:\QLSV\RPT\abo_lib\obj\Debug\abo_lib.dll
+D:\QLSV\RPT\abo_lib\obj\Debug\abo_lib.pdb

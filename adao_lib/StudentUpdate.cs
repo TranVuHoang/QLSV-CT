@@ -2,9 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace adao_lib
 {
@@ -27,11 +29,36 @@ namespace adao_lib
 
         public DataTable getStudent(string pID)
         {
-
             Dictionary<string, object> parameters = new Dictionary<string, object>();
             parameters.Add("@ID", pID);
             DataTable ds = executeReaderDataTable("SELECT * FROM [STUDENT] WHERE [id] = @ID", parameters);
            
+            return ds;
+        }
+
+        //public DataTable getStudentbyName(string sql)
+        //{
+        //    DataTable ds = executeReaderDataTable(sql);
+
+        //    return ds;
+        //}
+       
+
+        // tìm kiếm theo tên
+        public DataTable SearchByName(string name)
+        {
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            parameters.Add("@name", "%" + name + "%");
+
+            return executeReaderDataTable("SELECT * FROM STUDENT WHERE HOTEN LIKE @name", parameters);
+        }
+
+        // tìm kiếm theo câu lệnh sql
+        public DataTable Search (string sql)
+        {
+            DataTable ds = new DataTable();
+            ds = executeReaderDataTable(sql);
+
             return ds;
         }
 
@@ -68,6 +95,15 @@ namespace adao_lib
 
             executeNonQuery("DELETE FROM [STUDENT] WHERE id = @id", parameters);
         }
+
+        public DataTable SearchId(string id)
+        {
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            parameters.Add("@id", id);
+
+            DataTable ds = executeReaderDataTable("SELECT * FROM Student WHERE [id] = @id", parameters);
+            return ds;
+        }
     }
-    
+
 }

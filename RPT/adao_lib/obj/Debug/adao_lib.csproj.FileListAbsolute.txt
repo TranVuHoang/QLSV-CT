@@ -1,0 +1,17 @@
+D:\QLSV\RPT\adao_lib\obj\Debug\adao_lib.csproj.AssemblyReference.cache
+D:\QLSV\RPT\adao_lib\obj\Debug\adao_lib.csproj.CoreCompileInputs.cache
+D:\QLSV\RPT\adao_lib\bin\Debug\adao_lib.dll
+D:\QLSV\RPT\adao_lib\bin\Debug\adao_lib.pdb
+D:\QLSV\RPT\adao_lib\bin\Debug\abo_lib.dll
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Security.AccessControl.dll
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Security.Permissions.dll
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Security.Principal.Windows.dll
+D:\QLSV\RPT\adao_lib\bin\Debug\abo_lib.pdb
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Security.AccessControl.xml
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Security.Permissions.xml
+D:\QLSV\RPT\adao_lib\bin\Debug\System.Security.Principal.Windows.xml
+D:\QLSV\RPT\adao_lib\obj\Debug\adao_lib.csproj.CopyComplete
+D:\QLSV\RPT\adao_lib\obj\Debug\adao_lib.dll
+D:\QLSV\RPT\adao_lib\obj\Debug\adao_lib.pdb
